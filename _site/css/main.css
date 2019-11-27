@@ -151,35 +151,36 @@ h4 {
   background-color: #fffdfb; }
 
 .welcome {
-  margin: 6% 0; }
+  margin-bottom: 3%; }
 
 .checklist-wrapper {
   width: 100%;
   max-width: 750px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 48px;
+  background-color: #fff;
+  box-shadow: 0 0 0 1px rgba(49, 49, 93, 0.03), 0 2px 5px 0 rgba(49, 49, 93, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+  margin-top: 3%; }
 
 .checklist-label {
   font-size: 1.8rem;
   font-family: "proxima-nova-b", sans-serif; }
 
 .form-wrapper {
-  border: 1px solid rgba(125, 125, 125, 0.2); }
+  padding: 24px; }
 
 .todo-list {
-  background: #fff;
-  font-size: 20px;
-  max-width: 15em;
+  max-width: 650px;
   margin: auto;
-  padding: 0.5em 1em;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); }
+  padding: 0.5em 1em; }
 
 .todo {
   display: block;
   position: relative;
-  padding: 1em 1em 1em 16%;
+  padding-left: 5.5%;
+  padding-top: 4px;
   margin: 0 auto;
-  cursor: pointer;
-  border-bottom: solid 1px #ddd; }
+  cursor: pointer; }
 
 .todo:last-child {
   border-bottom: none; }
@@ -198,9 +199,8 @@ h4 {
 .todo__icon {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
-  width: 100%;
+  width: 256px;
   height: auto;
   margin: auto;
   fill: none;
