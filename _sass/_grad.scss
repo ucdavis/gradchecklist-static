@@ -67,7 +67,7 @@ padding:24px;
   height: auto;
   margin: auto;
   fill: none;
-  stroke: #27fdc7;
+  stroke: $primary-font;
   stroke-width: 2;
   stroke-linejoin: round;
   stroke-linecap: round;
@@ -78,7 +78,7 @@ padding:24px;
   transition: stroke-dashoffset 0.8s cubic-bezier(0.9, 0, 0.5, 1);
 }
 .todo__circle {
-  stroke: #27fdc7;
+  stroke: pink;
   stroke-dasharray: 1 6;
   stroke-width: 0;
   -webkit-transform-origin: 13.5px 12.5px;
@@ -122,7 +122,7 @@ padding:24px;
   transition-delay: 0.16s;
 }
 .todo__check {
-  stroke: #27fdc7;
+  stroke: green;
   stroke-dasharray: 9.8995, 9.8995;
   stroke-dashoffset: 9.8995;
   transition-duration: 0.32s;
@@ -139,7 +139,7 @@ padding:24px;
 }
 .todo__state:checked ~ .todo__text {
   transition-delay: 0s;
-  color: #5ebec1;
+  color: #004987;
   opacity: 0.6;
 }
 .todo__state:checked ~ .todo__icon .todo__box {
